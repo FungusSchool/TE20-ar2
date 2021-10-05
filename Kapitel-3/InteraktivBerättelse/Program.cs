@@ -110,6 +110,8 @@ namespace InteraktivBerättelse
             //väntar på ett input så inte fönstre stängs ner
             Console.WriteLine("Tryck på valfri kanpp för att stänga programet!");
             Console.ReadKey();
+
+            #
             
             
         }
