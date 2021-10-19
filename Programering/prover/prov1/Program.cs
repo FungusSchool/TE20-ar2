@@ -68,10 +68,7 @@ namespace prov1
                         //berätta för användaren deras netto lön.
                         Console.WriteLine($"{namn}, din nettolön blir {nettolön} kr.");
                         Console.WriteLine($"Baserat på bruttolön {bruttolön} kr och skattesatsen {skattesats}%.");
-
-
                     }
-
                 }
 
                 //Frågar användare om dom vill göra en ny beräkning och gör om deras svar till små bokstäver
