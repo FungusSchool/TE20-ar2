@@ -24,11 +24,12 @@ namespace GissaEttTal2
                 if (räknare >= 5)
                 {
                     Console.WriteLine("Du fick slut på förök!");
+                    Console.WriteLine("Svaret var: " + slumptal);
                     break;
                 }
 
                  //Fråga användaren om en gissning
-                Console.Write("Gissa ett tal (1-50) Du har 5 försök: ");
+                Console.Write($"Gissa ett tal (1-50) Du har {5 - räknare} försök: ");
                 int gissning = int.Parse(Console.ReadLine());
 
                 //Är gissningen rätt?
